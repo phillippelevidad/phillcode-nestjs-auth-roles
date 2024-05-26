@@ -1,17 +1,19 @@
-# NestJS Auth Password Hash Usuário e Senha
+# NestJS Auth Controle de Acesso com Roles (Funções) de Usuário
 
-Como armazenar senhas de forma segura, com criptografia. Veja como implementar os métodos SignUp e SignIn (cadastro e login).
+Como controlar acesso a rotas por funções de usuário, como Admin, Manager, Marketing, etc.
 
-Este vídeo é base para o conteúdo dos próximos vídeos, onde vamos usar a biblioteca Passport JS para gerar tokens JWT -- access token e refresh token, além de trabalhar com rotas protegidas.
+Você também pode usar a mesma solução para fazer o controle por permissões (scopes).
+
+Para isso, usamos como base o NestJS, JWT e Passport.
 
 ### ✅ O QUE VOCÊ VAI APRENDER
 
-* Cadastro e login de usuários
-* Usuário e senha criptografada segura
+* Criar decorators (`@Roles('admin', 'outro')`)
+* Customizar o JwtAuthGuard para verificar as permissões de acesso
 
 ### ✅ VÍDEO
 
-[https://youtu.be/CmixGCGz1_s](https://youtu.be/CmixGCGz1_s)
+https://www.youtube.com/watch?v=mPmQBLAdG5s
 
 ### ✅ SIGA-ME NAS REDES
 
