@@ -1,0 +1,18 @@
+### signup
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "email": "test2@acme.com",
+    "password": "test",
+    "roles": []
+}
+
+### signin
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+    "email": "test2@acme.com",
+    "password": "test"
+}
